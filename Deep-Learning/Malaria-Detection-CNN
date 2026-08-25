@@ -1,0 +1,116 @@
+# Malaria Detection using CNN
+
+##  Project Overview
+
+This project uses a Convolutional Neural Network (CNN) to detect malaria infection from microscopic blood cell images.
+
+The model classifies blood cell images into two classes:
+
+- Parasitized
+- Uninfected
+
+The project follows a complete Deep Learning workflow, starting from data exploration and preprocessing, followed by CNN model training, evaluation, and final testing.
+
+##  Project Objectives
+
+- Explore and understand the malaria image dataset.
+- Clean and prepare the image data.
+- Remove corrupted and unnecessary files.
+- Resize and preprocess images.
+- Split the dataset into training and testing sets.
+- Build a Convolutional Neural Network (CNN).
+- Train the model to classify infected and uninfected cells.
+- Evaluate the model using different performance metrics.
+- Test the final trained model on unseen images.
+
+##  Project Structure
+
+- `preparedataset.ipynb`  
+  Dataset exploration, cleaning, image preprocessing, and preparation.
+
+- `trainmodel.ipynb`  
+  Building and training the CNN model.
+
+- `evaluatemodel.ipynb`  
+  Evaluating the model using accuracy, precision, recall, and F1-score.
+
+- `testmodel.ipynb`  
+  Testing the final model and generating predictions for new images.
+
+##  Model
+
+The project uses a Convolutional Neural Network (CNN) designed for image classification.
+
+The CNN learns visual features from blood cell images and uses them to classify each image as either:
+
+- Parasitized
+- Uninfected
+
+##  Dataset
+
+The final dataset contains:
+
+- 27,558 images
+- 13,779 Parasitized images
+- 13,779 Uninfected images
+
+The dataset was divided into:
+
+- Training set: 22,046 images
+- Testing set: 5,512 images
+
+##  Model Performance
+
+The final CNN model achieved:
+
+**Test Accuracy: 95.21%**
+
+### Classification Report
+
+| Class | Precision | Recall | F1-Score |
+|-------|-----------|--------|----------|
+| Parasitized | 0.96 | 0.94 | 0.95 |
+| Uninfected | 0.94 | 0.96 | 0.95 |
+
+### Overall Performance
+
+- Accuracy: **95.21%**
+- Macro F1-Score: **0.95**
+
+These results show that the CNN model achieved strong performance in distinguishing between parasitized and uninfected blood cell images.
+
+##  Technologies & Libraries
+
+- Python
+- TensorFlow
+- Keras
+- NumPy
+- Pandas
+- Matplotlib
+- Scikit-learn
+- Jupyter Notebook
+
+##  Deep Learning Workflow
+
+1. Data Collection
+2. Data Exploration
+3. Data Cleaning
+4. Image Preprocessing
+5. Train/Test Split
+6. CNN Model Building
+7. Model Training
+8. Model Evaluation
+9. Final Testing
+10. Image Classification
+
+##  Conclusion
+
+The project demonstrates how Convolutional Neural Networks can be used for medical image classification.
+
+The final model achieved a test accuracy of 95.21%, showing that the trained CNN can effectively distinguish between parasitized and uninfected blood cell images.
+
+## 👩‍💻 Authors
+
+- Shahd Anwar
+- Shireen Elsayed
+- Salma Eslam
