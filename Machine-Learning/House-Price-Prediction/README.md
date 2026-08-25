@@ -169,10 +169,12 @@ This project demonstrates the practical application of Machine Learning for a re
 
 ---
 
-## Author
+## Authors
 
- Shahd Anwar
- Shireen Elsayed 
- Salma Eslam
+1- Shahd Anwar
+
+2- Shireen Elsayed 
+
+3- Salma Eslam
 
 Faculty of Computers and Artificial Intelligence
