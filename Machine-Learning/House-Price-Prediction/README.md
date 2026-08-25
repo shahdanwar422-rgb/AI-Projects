@@ -121,7 +121,7 @@ House-Price-Prediction/
 │   ├── preparedataset.ipynb
 │   ├── trainmodel.ipynb
 │   ├── evaluatemodel.ipynb
-│   └── testmodel.ipynb
+│   └── finaltestmodel.ipynb
 │
 ├── models/
 │   ├── random_forest_model.pkl
